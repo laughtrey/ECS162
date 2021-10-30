@@ -1,0 +1,15 @@
+.text_center {
+  text-align: center; 
+}
+
+.flex_center {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 2.5vh;
+}
+
+.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

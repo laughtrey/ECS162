@@ -1,0 +1,36 @@
+body{
+  background-image: url("background.jpg");
+  height:400px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  font-family:nightlight;
+  text-transform:uppercase;
+
+}
+
+@font-face{
+  font-family: nightlight;
+  src: url("NightLight-Font.otf") format("opentype");
+}
+
+.text{
+  font-size:40px;
+
+}
+
+.multicolortext{
+  background-image: linear-gradient(to right,  #180480, #18BAFF, #14F3F3, #00FF62, #FF3D00, #FFBA09);
+  -webkit-background-clip: text;
+  background-clip:text;
+  color: transparent;
+
+}
+
+.school-border{
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+
+  box-shadow: 0 0 0 2px #000, 0 0 0 4px #FFBA09, 0 0 0 6px #000;
+}

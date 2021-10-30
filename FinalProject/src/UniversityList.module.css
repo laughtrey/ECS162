@@ -1,0 +1,217 @@
+ a, a:hover, a:focus, a:active, a:visited {
+      text-decoration: none;
+      color: inherit;
+ }
+.school{ 
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+  /* width:500px; */
+  margin-right: 3%;
+  font-size:40px;
+  font-family: nightlightfont;
+  text-decoration:none;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+  -webkit-text-fill-color: #18BAFF; /*oxford is this color, maybe name this class oxford or edit the colors in html*/
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  -webkit-animation: fill 0.8s infinite alternate
+}
+
+.school2{ 
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+  /* width:500px; */
+  margin-right: 3%;
+  font-size:40px;
+  font-family: nightlightfont;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+  -webkit-text-fill-color: #14F3F3; /*oxford is this color, maybe name this class oxford or edit the colors in html*/
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  -webkit-animation: fill2 0.8s infinite alternate
+}
+
+.school3{ 
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+  /* width:500px; */
+  margin-right: 3%;
+  font-size:40px;
+  font-family: nightlightfont;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+  -webkit-text-fill-color: #00FF62; /*oxford is this color, maybe name this class oxford or edit the colors in html*/
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  -webkit-animation: fill3 0.8s infinite alternate
+}
+
+.school4{ 
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+  /* width:500px; */
+  margin-right: 3%;
+  font-size:40px;
+  font-family: nightlightfont;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+  -webkit-text-fill-color: #FF3D00; /*oxford is this color, maybe name this class oxford or edit the colors in html*/
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  -webkit-animation: fill4 0.8s infinite alternate
+}
+
+.school5{ 
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+  /* width:500px; */
+  margin-right: 3%;
+  font-size:40px;
+  font-family: nightlightfont;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+  -webkit-text-fill-color: #FFBA09; /*oxford is this color, maybe name this class oxford or edit the colors in html*/
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  -webkit-animation: fill5 0.8s infinite alternate
+}
+
+.school_border {
+  border-radius: 10px;
+  width:300px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  box-shadow: 0 0 0 2px #000, 0 0 0 4px #FFBA09, 0 0 0 6px #000;
+}
+
+.center_element {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_center {
+  text-align: center; 
+  text-decoration:none;
+}
+
+@-webkit-keyframes fill{
+  from{text-shadow: 0 0 2px #18BAFF}
+  to{text-shadow: 0 0 2px black}
+}
+
+@-webkit-keyframes fill2{
+  from{text-shadow: 0 0 2px #14F3F3}
+  to{text-shadow: 0 0 2px black}
+}
+
+@-webkit-keyframes fill3{
+  from{text-shadow: 0 0 2px #00FF62}
+  to{text-shadow: 0 0 2px black}
+}
+
+@-webkit-keyframes fill4{
+  from{text-shadow: 0 0 2px #FF3D00}
+  to{text-shadow: 0 0 2px black}
+}
+
+@-webkit-keyframes fill5{
+  from{text-shadow: 0 0 2px #FFBA09}
+  to{text-shadow: 0 0 2px black}
+}
+
+
+@font-face {
+  font-family: nightlightfont;
+  src: url("../NightLight-Font.otf") format("opentype");
+}
+
+#popup__overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(53, 36, 22, 0.95);
+  text-align: center;
+  z-index: 100;
+}
+
+#popup__overlay:after {
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+  content: "";
+}
+
+.popup {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* max-width: 640px;
+  max-height: 480px; */
+  padding: 20px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  vertical-align: middle;
+}
+
+.popup-form__row {
+  margin: 1em 0;
+}
+
+#popup__close {
+  display: block;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 12px;
+  height: 12px;
+  padding: 8px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(53, 36, 22, 0.95);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#popup__close:hover {
+  color: #eea200;
+}
+
+iframe {
+  /* width: 100%; */
+  width: 800px;
+  /* height: 100%; */
+  height: 800px;
+}

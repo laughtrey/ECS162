@@ -1,0 +1,186 @@
+{
+  "biology": [
+    {
+      "youtube-link": "https://www.youtube.com/watch?v=oKNAzl-XN4I&t=5511s",
+      "thumbnail-link": "https://img.youtube.com/vi/oKNAzl-XN4I/1.jpg",
+      "title": "Human Behavioral Biology",
+      "university": "Stanford",
+      "professor": "Robert Sapolsky"
+    },
+    {
+      "youtube-link": "https://youtu.be/QTdJiG7mV40?t=542",
+      "thumbnail-link": "http://i3.ytimg.com/vi/QTdJiG7mV40?t=542/hqdefault.jpg",
+      "title": "Enzymes and metabolism",
+      "university": "MIT",
+      "professor": "Barbara Imperiali"
+    },
+    {
+      "youtube-link": "https://youtu.be/DRBREvFL19g?t=737",
+      "thumbnail-link": "http://i3.ytimg.com/vi/DRBREvFL19g/maxresdefault.jpg",
+      "title": "DNA Replication",
+      "university": "MIT",
+      "professor": "Eric Lander"
+    },
+    {
+      "youtube-link": "https://youtu.be/KlVHqq38KJU?t=600",
+      "thumbnail-link": "http://i3.ytimg.com/vi/KlVHqq38KJU/maxresdefault.jpg",
+      "title": "Introductory Biology",
+      "university": "MIT",
+      "professor": "Barbara Imperiali, Adam Martin"
+    }
+  ],
+  "psychology":[
+    {
+      "youtube-link": "https://youtu.be/P3FKHH2RzjI?t=242",
+      "thumbnail-link": "https://i3.ytimg.com/vi/P3FKHH2RzjI/hqdefault.jpg",
+      "title": "Introduction to Psychology",
+      "university": "Yale",
+      "professor": "Paul Bloom"
+    },
+    {
+      "youtube-link": "https://youtu.be/2OUocz6SdtQ?t=780",
+      "thumbnail-link": "http://i3.ytimg.com/vi/2OUocz6SdtQ/hqdefault.jpg",
+      "title": "Families and Couples",
+      "university": "UCLA",
+      "professor": "Benjamin Karney"
+    },
+    {
+      "youtube-link": "https://youtu.be/OlW917n6mpA?t=1724",
+      "thumbnail-link": "http://i3.ytimg.com/vi/OlW917n6mpA/maxresdefault.jpg",
+      "title": "Introduction to Human Behavior",
+      "university": "Biola",
+      "professor": "Chris Grace"
+    },
+    {
+      "youtube-link": "https://youtu.be/NNnIGh9g6fA?t=1082",
+      "thumbnail-link": "http://i3.ytimg.com/vi/NNnIGh9g6fA/maxresdefault.jpg",
+      "title": "Human Behavioral Biology",
+      "university": "Stanford",
+      "professor": " Robert Sapolsky"
+    }
+  ],
+  "physical-science":[
+    {
+      "youtube-link": "https://youtu.be/hbmf0bB38h0?t=14",
+      "thumbnail-link": "http://i3.ytimg.com/vi/hbmf0bB38h0/hqdefault.jpg",
+      "title": "Einstein's General Theory of Relativity",
+      "university": "Stanford",
+      "professor": "Leonard Susskind"
+    },
+    {
+      "youtube-link": "https://youtu.be/4a0FbQdH3dY?t=1532",
+      "thumbnail-link": "http://i3.ytimg.com/vi/4a0FbQdH3dY/maxresdefault.jpg",
+      "title": "For the Love of Physics",
+      "university": "MIT",
+      "professor": "Emeritus Walter Lewin"
+    },
+    {
+      "youtube-link": "https://youtu.be/WuP0esNPchs?list=PLB572BA3ED0F700F1",
+      "thumbnail-link": "http://i3.ytimg.com/vi/WuP0esNPchs/maxresdefault.jpg",
+      "title": "Organic Chemistry",
+      "university": "Yale",
+      "professor": "Michael McBride"
+    }
+  ],
+  "history":[
+    {
+      "youtube-link": "https://youtu.be/goRP7PtHx5U?t=1865",
+      "thumbnail-link": "https://img.youtube.com/vi/goRP7PtHx5U/3.jpg",
+      "title": "The Ancient World and Us",
+      "university": "Ediburgh",
+      "professor": "Mary Beard"
+    },
+    {
+      "youtube-link": "https://youtu.be/GDNTsdtbKy8?t=967",
+      "thumbnail-link": "http://i3.ytimg.com/vi/GDNTsdtbKy8/maxresdefault.jpg",
+      "title": "The Dark Ages",
+      "university": "Yale",
+      "professor": "Donald Kagan"
+    },
+    {
+      "youtube-link": "https://youtu.be/E28PaeQQQC0?t=2332",
+      "thumbnail-link": "http://i3.ytimg.com/vi/E28PaeQQQC0/maxresdefault.jpg",
+      "title": "The Persian Wars",
+      "university": "Yale",
+      "professor": "Donald Kagan"
+    }
+  ],
+  "literature":[
+    {
+      "youtube-link": "https://youtu.be/4YY4CTSQ8nY?t=303",
+      "thumbnail-link": "https://i3.ytimg.com/vi/4YY4CTSQ8nY/hqdefault.jpg",
+      "title": "Introduction to Theory of Literature with Paul H. Fry",
+      "university": "Yale",
+      "professor": "Paul H. Fry"
+    },
+    {
+      "youtube-link": "https://youtu.be/Tmdi6m84AaQ?t=258",
+      "thumbnail-link": "https://img.youtube.com/vi/Tmdi6m84AaQ/3.jpg",
+      "title": "Jane Austen",
+      "university": "Oxford",
+      "professor": "Sandie Byrne"
+    },
+    {
+      "youtube-link": "https://youtu.be/TyVAU5iGe0k?t=1884",
+      "thumbnail-link": "https://www.youtube.com/watch?v=TyVAU5iGe0k&list=PLE33BCD966FF96F23",
+      "title": "The American Novel Since 1945 with Amy Hungerford",
+      "university": "Yale",
+      "professor": "Amy Hungerford "
+    }
+  ],
+  "computer-science":[
+    {
+      "youtube-link": "https://youtu.be/ENyox7kNKeY?t=1028",
+      "thumbnail-link": "http://i3.ytimg.com/vi/ENyox7kNKeY/maxresdefault.jpg",
+      "title": "Introduction to Algorithms",
+      "university": "MIT",
+      "professor": "Erik Demaine"
+    },
+    {
+      "youtube-link": "https://youtu.be/_QL0VFW57Pg?t=4195",
+      "thumbnail-link": "http://i3.ytimg.com/vi/TEjDYtkLRdQ/hddefault.jpg",
+      "title": "Database Systems",
+      "university": "UC Davis",
+      "professor": "Mohammad Sadoghi"
+    },
+    {
+      "youtube-link": "https://youtu.be/TEjDYtkLRdQ?t=1023",
+      "thumbnail-link": "http://i3.ytimg.com/vi/TEjDYtkLRdQ/hqdefault.jpg",
+      "title": "Computer Graphics",
+      "university": "UC Davis",
+      "professor": "Ken Joy"
+    }
+  ],
+  "mathematics":[
+    {
+      "youtube-link": "https://youtu.be/I3GWzXRectE?list=PL4d5ZtfQonW0fTwPsRvvg9hMJllVyj1l3&t=527",
+      "thumbnail-link": "https://img.youtube.com/vi/I3GWzXRectE/mqdefault.jpg",
+      "title": "Introduction to Calculus",
+      "university": "Oxford",
+      "professor": "Dan Ciubotaru"
+    },
+    {
+      "youtube-link": "https://youtu.be/azzrfdysfI0?t=43",
+      "thumbnail-link": "https://i3.ytimg.com/vi/azzrfdysfI0/hqdefault.jpg",
+      "title": "A Vision of Linear Algebra",
+      "university": "MIT",
+      "professor": "Gilbert Strang"
+    }
+  ],
+  "social-sciences": [
+    {
+      "youtube-link": "https://youtu.be/0gIueAXIeKw?t=2",
+      "thumbnail-link": "http://i3.ytimg.com/vi/0gIueAXIeKw/maxresdefault.jpg",
+      "title": "SOC119 Live Stream Class 26: The Social Life of God",
+      "university": "Penn State",
+      "professor": "Dr. Sam Richards"
+    },
+    {
+      "youtube-link": "https://youtu.be/x_-OykbUA3I?t=224",
+      "thumbnail-link": "http://i3.ytimg.com/vi/x_-OykbUA3I/maxresdefault.jpg",
+      "title": "SOC119 Live Stream Class 27: A Sociologist & A Yogi",
+      "university": "Penn State",
+      "professor": "Dr. Sam Richards"
+    }
+  ]
+}

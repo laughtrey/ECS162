@@ -1,0 +1,359 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+  min-width: 350px;
+  border-style: dotted;
+
+}
+
+strong {
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* || Top Level Section Styes */
+nav {
+  padding: 20px 40px;
+  background-color: #333333;
+  color: white;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1220px;
+  margin: auto;
+  padding: 0px 40px;
+}
+
+main {
+  margin: auto;
+  padding: 40px;
+  max-width: 1220px;
+}
+
+footer {
+  min-height: 100px;
+}
+
+/* || Header Section Styles */
+#welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  padding-top: 50px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+}
+
+#workoutImage {
+  max-width: 70%;
+  align-self: flex-end;
+}
+
+/* || Container Styling */
+.main-container + .main-container {
+  padding-top: 40px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  min-height: 180px;
+  border-radius: 40px;
+}
+
+#past-activity .content-container {
+  background-color: #53e0cd;
+}
+
+#future-activity .content-container {
+  background-color: #b1bab9;
+}
+.reminder-container{
+  background-color: #6f34ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 70px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.date-text{
+  font-size: 1rem;
+  color: black;
+}
+.modal-buttons{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction:column;
+  align-items: center;
+}
+.modal-chart{
+  display:flex;
+  justify-content: center;
+}
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  color: white;
+}
+
+.modal-body {
+}
+
+.modal-footer {
+  padding: 2px 16px;
+}
+
+.reminder-title{
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-style: italic;
+  padding-right: 15px;
+}
+
+.reminder-text{
+  color: white;
+  font-weight: bold;
+}
+
+.reminder-answer{
+  color: white;
+  padding: 12px;
+  background: none;
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.container-title {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 0.6rem;
+}
+
+/* || Start Form Styles */
+#pAct-Add p,
+#fAct-Add p {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.progressBtn{
+  color: white;
+  background-color: black;
+  font-weight:bold;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.addBtn {
+  color: black;
+  background-color: #fff;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* || Form Styles */
+.form-label {
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.pseudoform {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+label,
+.form-label,
+.form-button {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  height: 20px;
+  padding: 10px;
+  font-weight: normal;
+}
+
+select {
+  height: 40px;
+  font-weight: normal;
+  padding: 0 10px;
+}
+
+#activity-for-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#activity-for-wrapper > .form-label {
+  padding-bottom: 10px;
+}
+
+#scalar-unit-wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+}
+
+#label-scalar,
+#label-units {
+  flex: 1;
+}
+
+#label-scalar > input,
+#label-units > input {
+  width: 80%;
+}
+
+/* || Remove Calendar logo */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.form-button {
+  align-self: center;
+  color: white;
+  background-color: #333333;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+@media only screen and (min-width: 768px) {
+  .pseudoform {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  label,
+  .form-label,
+  .form-button {
+    margin: 10px 15px;
+  }
+  .form-button {
+    align-self: flex-end;
+    margin: 10px 30px;
+  }
+
+}
+
+@media only screen and (min-width: 960px) {
+  #workoutImage {
+    position: absolute;
+    right: 0;
+    max-height: 350px;
+  }
+
+  label,
+  .form-label {
+    margin: 10px 20px;
+  }
+  .form-button {
+    margin: 10px 30px;
+  }
+    .modal-buttons{
+    flex-direction:row;
+  }
+}

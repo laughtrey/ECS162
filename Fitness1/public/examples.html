@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Fitness tracker stage 1</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="examples.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <script defer src="examples.js"></script>
+</head>
+
+<BODY>
+  <div class="title">
+    <p class="titletext">Fitness Log</p>
+  </div>
+  <div class="topcontainer>">
+    <div class="promptcontainer">
+      <h1>Welcome back,<br>
+        Joey!</h1>
+      <img class="fitnessimage" src="headerimage.png">
+    </div>
+    <p class="prompttext">What activity session are you logging?</p>
+
+  </div>
+  <div class="activitycontainer">
+    <h2>Past Activity</h2>
+    <div class="pastactivityouter">
+      <div class="pastactivityitems">
+        <button id="button1" class="button">Add New Activity</button>
+      </div>
+      <div id="pastactivityform" class="pastactivityinner">
+        <div class="pastactivityitems">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="pastactivityitems">
+          <label for="activity">Activity:</label>
+          <div class="custom-select" style="width:200px;">
+            <select id="activity">
+              <option value="0">Walk</option>
+              <option value="1">Run</option>
+              <option value="2">Swim</option>
+              <option value="3">Bike</option>
+              <option value="4">Yoga</option>
+              <option value="5">Soccer</option>
+              <option value="6">Basketball</option>
+            </select>
+          </div>
+        </div>
+        <div class="pastactivityitems">for</div>
+        <div class="pastactivityitems">
+          <label for="timedist">Time/Distance:</label>
+          <input type="timedist" id="timedist" name="timedist">
+        </div>
+        <div class="pastactivityitems">
+          <label for="units">Units:</label>
+          <input type="units" id="units" name="units">
+        </div>
+        <button id="submit1" class="submitbutton">Submit</button>
+        <div id="SuccessMessage" class ="pastactivityitems"></div>
+      </div>
+      
+
+    </div>
+    <h2>Future Plans</h2>
+    <div class="futureplansouter">
+      <div class="futureplansinner">
+        <button id="button2" class="button">Add New Activity</button>
+        <div id="futureactivityform" class="futureactivityform">
+          <div class="pastactivityitems">
+            <label for="date">Date:</label>
+            <input type="date" id="date2" name="date">
+          </div>
+          <div class="pastactivityitems">
+            <label for="activity">Activity:</label>
+            <div class="custom-select" style="width:200px;">
+              <select id="activity2">
+                <option value="0">Walk</option>
+                <option value="1">Run</option>
+                <option value="2">Swim</option>
+                <option value="3">Bike</option>
+                <option value="4">Yoga</option>
+                <option value="5">Soccer</option>
+                <option value="6">Basketball</option>
+              </select>
+            </div>
+          </div>
+          <button id="submit2" class="submitbutton">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</BODY>
+
+</html>

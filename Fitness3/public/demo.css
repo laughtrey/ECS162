@@ -1,0 +1,83 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-items: center;
+  padding:5%;
+}
+
+
+main {
+  padding: 15px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  max-width: 200px;
+}
+
+button {
+  /* margin-top: 15px;
+  padding: 10px 15px; */
+  /* border-radius: 30px; */
+  /* background-color: rgb(102, 223, 213); */
+  width:60%;
+  cursor:pointer;
+  border: none;
+}
+
+.welcome{
+  font-weight: bold;
+  color: rgb(0, 196, 179)
+}
+.intro{
+  word-wrap: break-word; 
+}
+.loginmsg{
+  color:white;
+}
+
+.maincontainer{
+  display:flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items:center;
+}
+
+#workoutImage {
+  max-width: 100%;
+}
+
+.imageside{
+  background-color: #ffffff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginside{
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 10;
+  max-width:500px;
+}
+.loginbtn{
+  display:flex;
+  width: auto;
+  height: auto;
+  align-items:center;
+}
+
+
+@media screen and (min-width: 768px) {
+  .maincontainer{
+    flex-direction: row;
+  }
+  #workoutImage{
+    max-height: 350px;
+  }
+}
